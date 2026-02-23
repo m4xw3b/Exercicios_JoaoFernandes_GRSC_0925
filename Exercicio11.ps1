@@ -9,7 +9,7 @@ Switch ($dia) {
     "quarta"  { $diadasemana = "Dia Util" }
     "quinta"  { $diadasemana = "Dia Util" }
     "sexta"   { $diadasemana = "Dia Util" }
-Default { $diadasemana = "Erro: Dia da semana inválido. Repita, pff." } 
+    Default { $diadasemana = "Erro: Dia da semana inválido. Repita, pff." } 
 }
 if ($diadasemana -eq "Fim de Semana") {
     Write-Host "Resultado: Fim de Semana" -ForegroundColor Green
