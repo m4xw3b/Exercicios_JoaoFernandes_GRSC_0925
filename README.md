@@ -1,0 +1,2 @@
+# Exercicios_JoaoFernandes_GRSC_0925
+Exercicios_PowerShell
