@@ -2,7 +2,7 @@
 # Ordem Crescente e Decrescente
 [int]$nume1 = Read-Host "Introduza o primeiro numero"
 [int]$nume2 = Read-Host "Introduza o segundo numero"
-[int]$nume3 = Read-Host "Introduza o tericeiro numero"
+[int]$nume3 = Read-Host "Introduza o terceiro numero"
 
 if ($nume1 -le $nume2 -and $nume1 -le $nume3 -and $nume2 -le $nume3) {
     $cresce = "$nume1, $nume2, $nume3"
