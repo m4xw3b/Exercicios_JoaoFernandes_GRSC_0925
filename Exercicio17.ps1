@@ -6,7 +6,7 @@
 #• “Categoria desconhecida” caso contrário 
 #Exemplo: Entrada → {"categoria": "eletrônico", "preco": 1500} Saída → Produto de luxo
 [string]$categoria_produto = Read-Host "Introduza a categoria de produto (ex: eletronico, alimento) "
-[float]$preco_produto = Read-Host "Introduza o preço do produto (ex: 1000.00) "
+[float]$preco_produto = Read-Host "Introduza o preço do produto (ex: 1000.00) gi"
 $registo = @{
     categoria = $categoria_produto
     preco = $preco_produto

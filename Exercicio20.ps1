@@ -18,6 +18,7 @@ do {
         break
     }
     $jogador2 = (Read-Host "Jogador 2 (pedra, papel, tesoura)")
+    $jogadas = "$jogador1-$jogador2"
 switch ($jogadas) {
     "pedra-tesoura" { $resultado_do_jogo = "Jogador 1 venceu (Pedra quebra Tesoura)" }
     "tesoura-papel" { $resultado_do_jogo = "Jogador 1 venceu (Tesoura corta Papel)" }
