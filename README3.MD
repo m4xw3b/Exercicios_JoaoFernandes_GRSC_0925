@@ -19,6 +19,7 @@ Exercício 9: Escreva um programa que solicite um número ao utilizador até que
  (Use o ciclo do ... while)
 
 Exercício 10: Elabore um programa que lê um número e escreve quantos divisores ele possui.
+
 Exercício 11: Elabore um ciclo for para produzir o seguinte output.
 
 	1
